@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <section id="banner">
+        
+        <div class="container">
+            <div class="banner-main">
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="menu-box">
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#feature">Team</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#card">Feature</a>
+                        <a href="#gallery">Gallery</a>
+                        <div class="login">
+                            <button class="form-box-show">Login</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-icons">
+                    <div class="front">
+                        <div class="show">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="hide">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <div class="front">
+                        <div class="show">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="hide">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="front">
+                        <div class="show">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="hide">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="front">
+                        <div class="show">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="hide">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="front">
+                        <div class="show">
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <div class="hide">
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-text">
+                    <h1>Hello Mysterious World</h1>
+                    <h4>Will be vanished in mysterious circumstances</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Optio sunt asperiores quod ullam aliquam incidunt corrupti possimus placeat facilis ipsam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus qui et molestias debitis earum perferendis.</p>
+                    <div class="banner-btn">
+                        <a href="#">Click Here</a>
+                    </div>
+                </div>
+                <div class="banner-phot">
+                    <div class="banner-img">
+                    </div>
+                    <div class="banner-img-img">
+                        <img src="images/banner.jpg" alt="">
+                    </div>
+                </div>
+                <div class="prev-icon">
+                    <i class="fa-solid fa-caret-left"></i>
+                </div>
+                <div class="next-icon">
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+                <div class="mode">
+                    <label>
+                        <input type="checkbox" class="check">
+                        <span class="button"></span>
+                    </label>
+                </div>
+                <div class="login-box">
+                    <div class="form">
+                        <div class="form-colse-icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <form action="">
+                            <h2>Login</h2>
+                            <label class="label-name" for="name">Name : </label>
+                            <p></p>
+                            <input type="text" name="name" class="name">
+                            <p></p>
+                            <label class="label-name" for="name">Password : </label>
+                            <p></p>
+                            <input id="passWord" type="password" name="name" class="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must be a uppercase, a lowercase, a number and 8 charectar">
+                            <p></p>
+                            <label class="label-name" for="name">Confarm Password : </label>
+                            <p></p>
+                            <input type="password" name="name" class="pass">
+                            <p></p>
+                            <h5>Forget password</h5>
+                            <h4>Do you have an account?</h4>
+                            <div class="login-btn">
+                                <button type="submit">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="password-details-box">
+                    <h3>Must be following this steps</h3>
+                    <p id="uppercase" class="invalid">A Uppercase latter</p>
+                    <p id="lowercase" class="invalid">A Lowercase latter</p>
+                    <p id="number" class="invalid">A Number</p>
+                    <p id="charectar" class="invalid">Will be 8 charectar</p>
+                </div>
+            </div>
+        </div>
+        <div class="banner-img-main">
+            <div class="banner-img-one"></div>
+            <div class="banner-img-two"></div>
+            <div class="banner-img-three"></div>
+        </div>
+    </section>
+
+
+
+    <!-- about part start -->
+    <section id="about">
+        <div class="container">
+            <div class="about-main">
+                <div class="about-head">
+                    <div class="a-text">
+                        <h2>about</h2>
+                        <div class="shape">
+                            <img src="images/star.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="about-items">
+                        <div class="about-text-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iste ratione eligendi tempore praesentium eos ipsum molestias iure ducimus voluptatem!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste eos fuga. Illum voluptatibus facilis laboriosam aperiam ullam voluptatem aliquid dolor repellendus rerum quos magnam quam unde exercitationem excepturi est reprehenderit molestias, consectetur cupiditate dolores ratione ab tenetur possimus ducimus.</p>
+                        </div>
+                    </div>
+                    <div class="about-items">
+                        <div class="about-slider">
+                            <div class="about-slider-img">
+                                <img src="images/about1.jpg" alt="">
+                            </div>
+                            <div class="about-slider-img">
+                                <img src="images/about2.jpg" alt="">
+                            </div>
+                            <div class="about-slider-img">
+                                <img src="images/about3.jpg" alt="">
+                            </div>
+                            <div class="about-slider-img">
+                                <img src="images/about4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about part end -->
+
+
+
+    <!-- our team part start -->
+    <section id="feature">
+        <div class="container">
+            <div class="feature-head">
+                <div class="a-text">
+                    <h2>Our TEam</h2>
+                    <div class="shape">
+                        <img src="images/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="feature-main">
+                <div class="feaure-box">
+                    <div class="feature-items">
+                        <div class="profile">
+                            <img src="images/feedback-left.png" alt="">
+                        </div>
+                        <h4>Devit Smith</h4>
+                        <h5>Web Designer</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis asperiores itaque, expedita accusantium quisquam porro.</p>
+                        <div class="feature-btn">
+                            <a href="#">Click Here</a>
+                        </div>
+                    </div>
+                    <div class="feature-items">
+                        <div class="profile">
+                            <img src="images/feedback-right.png" alt="">
+                        </div>
+                        <h4>Reacherd III</h4>
+                        <h5>Web Designer</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis asperiores itaque, expedita accusantium quisquam porro.</p>
+                        <div class="feature-btn">
+                            <a href="#">Click Here</a>
+                        </div>
+                    </div>
+                    <div class="feature-items">
+                        <div class="profile">
+                            <img src="images/feedback-left.png" alt="">
+                        </div>
+                        <h4>Reo Sole Jue</h4>
+                        <h5>Web Designer</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis asperiores itaque, expedita accusantium quisquam porro.</p>
+                        <div class="feature-btn">
+                            <a href="#">Click Here</a>
+                        </div>
+                    </div>
+                    <div class="feature-items">
+                        <div class="profile">
+                            <img src="images/feedback-right.png" alt="">
+                        </div>
+                        <h4>Adwoard V</h4>
+                        <h5>Web Designer</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis asperiores itaque, expedita accusantium quisquam porro.</p>
+                        <div class="feature-btn">
+                            <a href="#">Click Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+                <div class="circle5"></div>
+                <div class="circle6"></div>
+                <div class="circle7"></div>
+                <div class="circle8"></div>
+                <div class="circle9"></div>
+                <div class="circle10"></div>
+            </div>
+        </div>
+    </section>
+    <!-- our team part end -->
+
+
+    <!-- portfolio part start -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="portfolio-head">
+                <div class="a-text">
+                    <h2>Portfolio</h2>
+                    <div class="shape">
+                        <img src="images/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-main">
+                <div class="portfolio-items">
+                    <div class="portfolio-inner">
+                        <div class="portfolio-inner-front">
+                            <img src="images/portfolio1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-inner-back port-color1">
+                            <h3>Paris</h3>
+                            <h5>Waht a amazing city</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis sed tempore dignissimos omnis maiores!</p>
+                            <div class="portfolio-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-items">
+                    <div class="portfolio-inner">
+                        <div class="portfolio-inner-front">
+                            <img src="images/portfolio2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-inner-back port-color2">
+                            <h3>Paris</h3>
+                            <h5>Waht a amazing city</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis sed tempore dignissimos omnis maiores!</p>
+                            <div class="portfolio-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-items">
+                    <div class="portfolio-inner">
+                        <div class="portfolio-inner-front">
+                            <img src="images/portfolio3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-inner-back port-color3">
+                            <h3>Paris</h3>
+                            <h5>Waht a amazing city</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis sed tempore dignissimos omnis maiores!</p>
+                            <div class="portfolio-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-items">
+                    <div class="portfolio-inner">
+                        <div class="portfolio-inner-front">
+                            <img src="images/portfolio4.jpg" alt="">
+                        </div>
+                        <div class="portfolio-inner-back port-color4">
+                            <h3>Paris</h3>
+                            <h5>Waht a amazing city</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis sed tempore dignissimos omnis maiores!</p>
+                            <div class="portfolio-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-items">
+                    <div class="portfolio-inner">
+                        <div class="portfolio-inner-front">
+                            <img src="images/portfolio5.jpg" alt="">
+                        </div>
+                        <div class="portfolio-inner-back port-color5">
+                            <h3>Paris</h3>
+                            <h5>Waht a amazing city</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis sed tempore dignissimos omnis maiores!</p>
+                            <div class="portfolio-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-items">
+                    <div class="portfolio-inner">
+                        <div class="portfolio-inner-front">
+                            <img src="images/portfolio6.jpg" alt="">
+                        </div>
+                        <div class="portfolio-inner-back port-color6">
+                            <h3>Paris</h3>
+                            <h5>Waht a amazing city</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis sed tempore dignissimos omnis maiores!</p>
+                            <div class="portfolio-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio part end -->
+
+
+    <!-- feature part start -->
+    <section id="card">
+        <div class="container">
+            <div class="card-head">
+                <div class="a-text">
+                    <h2>Feature</h2>
+                    <div class="shape">
+                        <img src="images/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card-main">
+                <div class="card-box">
+                    <div class="card-items">
+                        <h3>Free</h3>
+                        <div class="gold"></div>
+                        <h4>Feature Card</h4>
+                        <h5>Reg: 0345 2345 3554 3565 9033</h5>
+                        <h6>WIP: 9/5</h6>
+                        <p>Md Imran Hossen</p>
+                        <div class="card-items-circles"></div>
+                    </div>
+                    <div class="card-items">
+                        <h3>Premimum</h3>
+                        <div class="gold"></div>
+                        <h4>Feature Card</h4>
+                        <h5>Reg: 0345 2345 3554 3565 9033</h5>
+                        <h6>WIP: 9/5</h6>
+                        <p>Md Imran Hossen</p>
+                        <div class="card-items-circles"></div>
+                    </div>
+                    <div class="card-items">
+                        <h3>Professonal</h3>
+                        <div class="gold"></div>
+                        <h4>Feature Card</h4>
+                        <h5>Reg: 0345 2345 3554 3565 9033</h5>
+                        <h6>WIP: 9/5</h6>
+                        <p>Md Imran Hossen</p>
+                        <div class="card-items-circles"></div>
+                    </div>
+                </div>
+                <div class="card-circle1"></div>
+                <div class="card-circle2"></div>
+                <div class="card-circle3"></div>
+                <div class="card-circle4"></div>
+                <div class="card-circle5"></div>
+                <div class="card-circle6"></div>
+            </div>
+        </div>
+    </section>
+    <!-- feature part end -->
+
+
+
+    <!-- our gallery part start -->
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery-head">
+                <div class="a-text">
+                    <h2>our gallery</h2>
+                    <div class="shape">
+                        <img src="images/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-main">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                      <img src="images/portfolio1.jpg" style="width:100%">
+                      <div class="place-details">
+                        <h3>The Woods</h3>
+                        <h5>Anterctica</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi sapiente omnis non obcaecati expedita corporis. Tempore, eius. Omnis, aut!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officia.</p>
+                        <div class="slider-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                      <img src="images/portfolio2.jpg" style="width:100%">
+                      <div class="place-details">
+                        <h3>Cinque Terre</h3>
+                        <h5>Anterctica</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi sapiente omnis non obcaecati expedita corporis. Tempore, eius. Omnis, aut!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officia.</p>
+                        <div class="slider-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                      <img src="images/portfolio3.jpg" style="width:100%">
+                      <div class="place-details">
+                        <h3>Mountains and fjords</h3>
+                        <h5>Anterctica</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi sapiente omnis non obcaecati expedita corporis. Tempore, eius. Omnis, aut!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officia.</p>
+                        <div class="slider-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                      <img src="images/portfolio4.jpg" style="width:100%">
+                      <div class="place-details">
+                        <h3>Northern Lights</h3>
+                        <h5>Anterctica</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi sapiente omnis non obcaecati expedita corporis. Tempore, eius. Omnis, aut!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officia.</p>
+                        <div class="slider-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                      <img src="images/portfolio5.jpg" style="width:100%">
+                      <div class="place-details">
+                        <h3>Nature and sunrise</h3>
+                        <h5>Anterctica</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi sapiente omnis non obcaecati expedita corporis. Tempore, eius. Omnis, aut!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officia.</p>
+                        <div class="slider-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                      <img src="images/portfolio6.jpg" style="width:100%">
+                      <div class="place-details">
+                        <h3>Snowy Mountains</h3>
+                        <h5>Anterctica</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi sapiente omnis non obcaecati expedita corporis. Tempore, eius. Omnis, aut!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officia.</p>
+                        <div class="slider-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                  </div>
+                
+                  <!-- Next and previous buttons -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                  <!-- Image text -->
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+                
+                  <!-- Thumbnail images -->
+                  <div class="row">
+                    <div class="column">
+                      <img class="demo cursor" src="images/portfolio1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/portfolio2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/portfolio3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/portfolio4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/portfolio5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/portfolio6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- our gallery part end -->
+
+
+
+    <!-- footer part start -->
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-img">
+                    <div class="footer-inner">
+                        <img src="images/footer.jpg" alt="footer">
+                        <div class="footer-inner-top">
+                            <img src="images/footer-top.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-text">
+                    <div class="footer-email-box">
+                        <input type="email" name="" class="email-fild" placeholder="Enter your E-mail...">
+                        <button class="subcribe">Subcribe Now</button>
+                    </div>
+                    <div class="footer-text-box">
+                        <div class="places">
+                            <h3>Fevorite Places</h3>
+                            <p>Maxico</p>
+                            <p>Anterctica</p>
+                            <p>Bally, Thailand</p>
+                        </div>
+                        <div class="footer-about">
+                            <h3>About Us</h3>
+                            <p>Our Projcects</p>
+                            <p>Our Team</p>
+                        </div>
+                        <div class="support">
+                            <h3>Support</h3>
+                            <p>Support Requirst</p>
+                            <p>Contacts</p>
+                            <p>Other Communication</p>
+                        </div>
+                    </div>
+                    <div class="footer-icon">
+                        <div class="copyright">
+                            <p>Copyright  2016 <span class="appon">MY WEB</span>. All Right Reserved <span class="imran">IMRAN</span>.</p>
+                        </div>
+                        <div class="footer-icon-icon">
+                            <div class="slider-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end -->
+
+    
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
